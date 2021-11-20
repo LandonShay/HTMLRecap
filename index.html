@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <header style="background-color: lightgrey; text-align: center;">
+    <h1>Survey on Cake Flavors</h1>
+</header>
+
+<section style="width: 30%; text-align: center; background-color: lightblue;">
+    <h1>Introduction</h1>
+    <p>Hello reader. You're here because you agreed to be part of a survey that will determine what the most popular flavor of cake is. To begin, please tell us about yourself.</p>
+</section>
+
+<h2>Demographic Form</h2>
+<div">
+    <fieldset>
+        <legend>About You</legend>
+        <form>
+            <p> 
+                <label>
+                    First name: <input />
+                </label>
+            </p>
+            <p>
+                <label>
+                    Last Name: <input />
+                </label>
+            </p>
+            <p>
+                <label>
+                    Age: <input type="number"
+                    min="18" max="99" />
+                </label>
+            </p>
+        
+        </form>
+    </fieldset>
+</div>
+
+<br />
+
+<div>
+    <h2>Favorite Cake Flavor?</h2>
+    <p>Please select your favorite flavor of cake from the following options. Select only one.</p>
+    <fieldset>
+        <legend>Cake Types</legend>
+            <p>
+                <label>
+                    <input type="radio" name="type"
+                        id="type0" value="type0" />
+                    <label for="type0">Vanilla</label>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="type"
+                        id="type1" value="type1" />
+                    <label for="type1">Chocolate</label>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="type"
+                        id="type2" value="type2" />
+                    <label for="type2">Lemon</label>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="type"
+                        id="type3" value="type3" />
+                    <label for="type3">Green Tea</label>
+                </label>
+            </p>
+            
+    </fieldset>
+</div>
+
+<br />
+
+<section>
+    <p>Great! Before you submit your response, please check out the video below to see a truly strange kind of cake.</p>
+    <iframe src="https://www.youtube.com/watch?v=HIpr32UIJNE"
+        frameborder="5"
+        width="500" height="350"
+        allowfullscreen>
+    </iframe>
+</section>
+<br />
+<p>
+    <button type="submit">Submit Response</button>
+</p>
+
+<footer>
+    <p>Survey Company 2021</p>
+    <nav>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/7/7b/Dew_on_grass_Luc_Viatour.jpg">About Us</a> -
+        <a href="https://upload.wikimedia.org/wikipedia/commons/2/26/Dewdrop_reflections.jpg">Contact Us</a>
+    </nav>
+</footer>
+</body>
+</html>
